@@ -25,7 +25,7 @@
 end
 
 python_pip 'image'
-python_pip 'jwt'
+python_pip 'PyJWT'
 
 case node[:tilestache][:install_method]
 when 'pip'
